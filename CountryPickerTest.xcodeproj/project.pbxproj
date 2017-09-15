@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B91AD74FE6A23E5C6AFCCAC2 /* Pods_CountryPickerTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26530E96112C27F1FA8CAB85 /* Pods_CountryPickerTest.framework */; };
 		C45DDD081F6B06CE00A5FE4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C45DDD071F6B06CE00A5FE4F /* main.m */; };
 		C45DDD0B1F6B06CE00A5FE4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C45DDD0A1F6B06CE00A5FE4F /* AppDelegate.m */; };
 		C45DDD0E1F6B06CE00A5FE4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45DDD0D1F6B06CE00A5FE4F /* ViewController.m */; };
 		C45DDD111F6B06CE00A5FE4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45DDD0F1F6B06CE00A5FE4F /* Main.storyboard */; };
 		C45DDD131F6B06CE00A5FE4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45DDD121F6B06CE00A5FE4F /* Assets.xcassets */; };
 		C45DDD161F6B06CE00A5FE4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45DDD141F6B06CE00A5FE4F /* LaunchScreen.storyboard */; };
+		C4E3AB021F6B12BD00FAB695 /* PhoneCountryCodePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E3AB011F6B12BD00FAB695 /* PhoneCountryCodePickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26530E96112C27F1FA8CAB85 /* Pods_CountryPickerTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CountryPickerTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB8B80508948B1941B54C71 /* Pods-CountryPickerTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountryPickerTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CountryPickerTest/Pods-CountryPickerTest.release.xcconfig"; sourceTree = "<group>"; };
+		9AAFE6EA16777A5994663AA1 /* Pods-CountryPickerTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountryPickerTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CountryPickerTest/Pods-CountryPickerTest.debug.xcconfig"; sourceTree = "<group>"; };
 		C45DDD031F6B06CE00A5FE4F /* CountryPickerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryPickerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45DDD071F6B06CE00A5FE4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C45DDD091F6B06CE00A5FE4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,8 @@
 		C45DDD121F6B06CE00A5FE4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C45DDD151F6B06CE00A5FE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C45DDD171F6B06CE00A5FE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E3AB001F6B12BC00FAB695 /* CountryPickerTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CountryPickerTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		C4E3AB011F6B12BD00FAB695 /* PhoneCountryCodePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneCountryCodePickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B91AD74FE6A23E5C6AFCCAC2 /* Pods_CountryPickerTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A9C4A547F5AEE04D8620AB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AAFE6EA16777A5994663AA1 /* Pods-CountryPickerTest.debug.xcconfig */,
+				5EB8B80508948B1941B54C71 /* Pods-CountryPickerTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B50CB99DCB17743FE1068552 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26530E96112C27F1FA8CAB85 /* Pods_CountryPickerTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C45DDCFA1F6B06CE00A5FE4F = {
 			isa = PBXGroup;
 			children = (
 				C45DDD051F6B06CE00A5FE4F /* CountryPickerTest */,
 				C45DDD041F6B06CE00A5FE4F /* Products */,
+				2A9C4A547F5AEE04D8620AB0 /* Pods */,
+				B50CB99DCB17743FE1068552 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +94,8 @@
 				C45DDD141F6B06CE00A5FE4F /* LaunchScreen.storyboard */,
 				C45DDD171F6B06CE00A5FE4F /* Info.plist */,
 				C45DDD061F6B06CE00A5FE4F /* Supporting Files */,
+				C4E3AB011F6B12BD00FAB695 /* PhoneCountryCodePickerViewController.swift */,
+				C4E3AB001F6B12BC00FAB695 /* CountryPickerTest-Bridging-Header.h */,
 			);
 			path = CountryPickerTest;
 			sourceTree = "<group>";
@@ -86,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C45DDD1A1F6B06CE00A5FE4F /* Build configuration list for PBXNativeTarget "CountryPickerTest" */;
 			buildPhases = (
+				A5F0E9FD476E8890B2BA4265 /* [CP] Check Pods Manifest.lock */,
 				C45DDCFF1F6B06CE00A5FE4F /* Sources */,
 				C45DDD001F6B06CE00A5FE4F /* Frameworks */,
 				C45DDD011F6B06CE00A5FE4F /* Resources */,
+				235F42F5E853E0929314BF8B /* [CP] Embed Pods Frameworks */,
+				2EC60E8CCDA288C8E0DCF6C5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -111,6 +143,7 @@
 					C45DDD021F6B06CE00A5FE4F = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 3NLAQ87DRE;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -146,6 +179,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		235F42F5E853E0929314BF8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CountryPickerTest/Pods-CountryPickerTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EC60E8CCDA288C8E0DCF6C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CountryPickerTest/Pods-CountryPickerTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5F0E9FD476E8890B2BA4265 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C45DDCFF1F6B06CE00A5FE4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -154,6 +235,7 @@
 				C45DDD0E1F6B06CE00A5FE4F /* ViewController.m in Sources */,
 				C45DDD0B1F6B06CE00A5FE4F /* AppDelegate.m in Sources */,
 				C45DDD081F6B06CE00A5FE4F /* main.m in Sources */,
+				C4E3AB021F6B12BD00FAB695 /* PhoneCountryCodePickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,25 +355,34 @@
 		};
 		C45DDD1B1F6B06CE00A5FE4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AAFE6EA16777A5994663AA1 /* Pods-CountryPickerTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 3NLAQ87DRE;
 				INFOPLIST_FILE = CountryPickerTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.CountryPickerTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CountryPickerTest/CountryPickerTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		C45DDD1C1F6B06CE00A5FE4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB8B80508948B1941B54C71 /* Pods-CountryPickerTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 3NLAQ87DRE;
 				INFOPLIST_FILE = CountryPickerTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.funkware.CountryPickerTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CountryPickerTest/CountryPickerTest-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -314,6 +405,7 @@
 				C45DDD1C1F6B06CE00A5FE4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
